@@ -15,7 +15,7 @@ jobs:
       - name: ls
         run: ls
       - name: hello world action
-        id: hellow-world-action
+        id: hello-world-action
         uses: actions/hello-world-javascript-action@main
         with:
           who-to-greet: 'Evgeny'
