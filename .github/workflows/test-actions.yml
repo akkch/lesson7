@@ -22,4 +22,4 @@ jobs:
       - name: time
         run: echo "'greeting time:' ${{ steps.hello-world-action.outputs.time }}"
       - name: docker action
-        uses: docker:///hello-world:latest
+        uses: docker://hello-world:latest
